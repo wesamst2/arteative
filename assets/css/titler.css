@@ -1,0 +1,30 @@
+/*! CSS Used from: https://drwappqdd0b0v.cloudfront.net/wp-content/themes/stockholm-child/homepage/css/bootstrap.min.css */
+#intro , #intro div{
+    width:100%;
+    height: 100%;
+}
+figure{display:block;}
+img{border:0;}
+figure{margin:1em 40px;}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+figure{margin:0;}
+img{vertical-align:middle;}
+/*! CSS Used from: https://drwappqdd0b0v.cloudfront.net/wp-content/themes/stockholm-child/homepage/css/style.css */
+*{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+::-moz-selection{color:#ffffff;background:#00BCD4;}
+::selection{color:#ffffff;background:#00BCD4;}
+.tilter *{pointer-events:none;}
+.tilter{display:block;position:relative;margin:0;color:#fff;flex:none;perspective:1000px;width: 70%; margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+.tilter__figure,.tilter__image{margin:0;width:100%;height:100%;display:block;}
+.tilter__figure > *{transform:translateZ(0px);}
+.tilter__figure{position:relative;max-width:1400px;margin:auto;}
+.absolute_img{position:absolute;top:0;left:0;width:100%;}
+.tilter__deco{position:absolute;top:0;left:0;width:100%;height:100%;}
+.tilter__deco--overlay{background:url(../backimg/part3.png) no-repeat;background-size:cover;}
+.tilter__deco--shine div{position:absolute;width:100%;height:100%;top:0%;left:0%;background:url(../backimg/part2.png) no-repeat;background-size:cover;}
+.tilter__caption{position:absolute;width:100%;height:100%;top:-10%;left:0%;background:url(../img/logo.png) no-repeat;background-position:center;background-size:60%;}
